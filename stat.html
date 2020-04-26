@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COLOR DISPLAYER</title>
+  <link rel="stylesheet" href="stat.css" type="text/css">
+</head>
+<body>
+
+<div id="container"> 
+  <div id="pick">
+    <p><strong>COLOR DISPLAYER</strong> by Kevin Jacob</p>
+  </div>
+<div id="iron">
+<img src="cap.jpg"width="350px" height="550px" >
+</div>
+<div id="tony">
+  <img src="tony.jpg"width="350px" height="450px" >
+  </div>
+
+<div id="screen">
+  <P id="pp">         Click the button of your choice to display the color.</P>
+<div id="b">
+
+  <button onclick="b('violet')">Violet</button>
+<button onclick="b('indigo')">Indigo</button>
+<button onclick="b('blue')">Blue</button>
+<button onclick="b('green')">Green</button>
+<button onclick="b('yellow')">Yellow</button>
+<button onclick="b('orange')">Orange</button>
+<button onclick="b('red')">Red</button>
+
+</div>
+</div>
+</div>
+
+<script>
+  {
+    function b(colo)
+    {
+  document.getElementById("screen").style.background=colo;
+
+    }
+
+  }
+</script>
+
+  
+</body>
+</html>

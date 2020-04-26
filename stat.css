@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    margin-bottom: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#container
+{
+    width: 100%;
+    height: 500px;
+    background:white;
+    padding-left: 40px;
+    padding-top: 40px;
+   
+}
+#screen {
+    margin-left: 358px;
+    width: 367px;
+    height: 439px;
+    border-radius: 15px 50px 30px;
+    border: purple solid 2px;
+    padding-top: 5px;
+    padding-left: 23px;
+    background: peachpuff;
+}
+#pick
+{
+    width: 100%;
+    height: 40px;
+    margin-left: 35%;
+    
+}
+
+#iron{
+    float: left;
+}
+#tony
+{
+    float: right;
+    margin-right: 5%;
+}
